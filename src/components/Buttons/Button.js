@@ -5,7 +5,7 @@ const Button = ({ text, onPress, options }) => {
   return (
     <TouchableOpacity
       style={options ? styles.buttonOptions : styles.button}
-      onPress={onPress}>
+      onPress={() => onPress(text)}>
       <Text style={options ? styles.buttonsOptionsText : styles.btnText}>
         {text}
       </Text>

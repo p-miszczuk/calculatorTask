@@ -2,11 +2,11 @@ import React from 'react'
 import { View } from 'react-native'
 import Button from './Buttons/Button'
 
-const OptionsScreen = () => {
+const OptionsScreen = ({ onPress }) => {
   return (
     <View style={{ flexDirection: 'row' }}>
-      <Button text="Calculator" options={true} />
-      <Button text="History" options={true} />
+      <Button text="Calculator" options={true} onPress={onPress} />
+      <Button text="History" options={true} onPress={onPress} />
     </View>
   )
 }

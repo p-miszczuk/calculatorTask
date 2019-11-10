@@ -1,10 +1,10 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
-const ResultScreen = () => (
+const ResultScreen = ({ display }) => (
   <View style={styles.resultContainer}>
-    <Text style={styles.result}>Result</Text>
-    <Text style={styles.sign}>=</Text>
+    <Text style={styles.result}>{display.num}</Text>
+    <Text style={styles.sign}>{display.sign}</Text>
   </View>
 )
 
