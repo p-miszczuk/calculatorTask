@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@react-native-community/async-storage": "github:react-native-community/async-storage",
-    "axios": "0.19.0",
+    "axios": "1.6.0",
     "brew": "0.0.8",
     "i18next": "17.0.6",
     "moment": "2.24.0",
